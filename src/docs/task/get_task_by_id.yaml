@@ -1,0 +1,33 @@
+Get Task By ID
+---
+tags:
+  - Task
+parameters:
+  - in: header
+    name: Authorization
+    required: true
+  - name: body
+    description: Les contenu doit etre les information requis
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "titre"
+        - "description"
+      properties:
+        titre:
+          type: "titre"
+          example: "the fox bronze"
+        description:
+          type: "description"
+          example: "lorem ipsum dolor sit ammet etc ..."
+responses:
+  200:
+    description: Task trouve
+
+  400:
+    description: Aucun task correspondant
+
+  401:
+    description: Information envoyer incorrect

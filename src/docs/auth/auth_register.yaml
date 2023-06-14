@@ -1,0 +1,32 @@
+User Registration
+---
+tags:
+  - Authentication
+parameters:
+  - name: body
+    description: Les contenu doit etre les information requis lors de l'inscription
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "username"
+        - "email"
+        - "password"
+      properties:
+        username:
+          type: "username"
+          example: "BillGates01"
+        email:
+          type: "email"
+          example: "bill_gt@gmail.com"
+        password:
+          type: "string"
+          format: password
+          example: "********"
+responses:
+  201:
+    description: Inscription reussi
+
+  400:
+    description: Erreur de donnee envoye
