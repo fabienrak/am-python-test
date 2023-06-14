@@ -31,6 +31,7 @@ def get_all_task(user_connected):
 
 @task_blueprint.route('/get_task/<task_id>', methods=['GET'])
 @auth_required
+@swag_from('../docs/task/get_task_by_id.yaml')
 def get_task_by_id(user_connected, task_id):
     task = Task.query.filter_by(task_id=task_id, user_id=user_connected.user_id).first()
     if not task:
@@ -47,6 +48,7 @@ def get_task_by_id(user_connected, task_id):
 
 @task_blueprint.route('/add_task', methods=['POST'])
 @auth_required
+@swag_from('../docs/task/add_task.yaml')
 def add_task(user_connected):
     task_data = request.get_json()
     new_task = Task(
@@ -72,6 +74,7 @@ def edit_task():
 
 @task_blueprint.route('/delete_task/<task_id>', methods=['DELETE'])
 @auth_required
+@swag_from('../docs/task/delete_task.yaml')
 def delete_task(user_connected, task_id):
     task = Task.query.filter_by(task_id=task_id, user_id=user_connected.user_id).first()
     if not task:
