@@ -1,6 +1,13 @@
 name: Python package
 
-on: [push]
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -30,6 +37,10 @@ jobs:
       - name: Lint with flake8
         run: |
           flake8 --ignore=E501,F401
+          # if syntax errors
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          # error exit-zero
+          flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
           pytest
