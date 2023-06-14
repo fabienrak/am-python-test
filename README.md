@@ -8,6 +8,26 @@ WebService REST developper en Flask pour :
 
 
 ### Prise en main
+Structure de Dossier :
+
+-	![dossier](https://i.ibb.co/qnb58xH/folder.png,"dossier")
+	-	`.github/`: workflows github actions
+	-	`env`: environement virtuel python
+	-	`migrations`: Dossier contenant le fichier de configuration, alembic et des migrations
+	-	`src`: Dossier source de l'application
+	-	`src/docs`: Configuration `.yaml` de documentation `swagger`
+	-	`src/models`: Les fichier Models
+	-	`src/services`: Dossier des fichier `services` de l'app
+	-	`src/utils`: Utilitaire et Configuration partager
+	-	`src/__init__.py`: Application factory
+	-	`src/gunicorn.py`: Configuration de gunicorn au déploiement
+	-	`app.py`: Point d'entree de l'app
+	-	`.env, .env.prod`: variable d’environnement utiliser
+	-	`docker-compose.yml - Dockerfile`: Fichier de configuration sous Docker
+	-	`entrypoint.sh`: script de lancement
+	-	`wsgi.py`: Configuration du wsgi avec gunicorn
+	-	`requirements.txt`: liste des. dependances
+
 Lancement en local :
 	-	Activer l'environement virtuel de python `source env/bin/activate`
 	![env](https://i.ibb.co/6ZgyF8y/env.png"ENV")
@@ -32,7 +52,8 @@ Si vous utiliser l’environnement de dev. tourné sous docker
 	En cas d'erreur sur le build veuillez vérifier le `Dockerfile` et l'adapter a votre environnement.
 	- Vous pouvez utiliser l'image dans le fichier `docker-compose.yaml` pour l'orchestration de vos container.
 	![DOCKER_COMPOSE](https://i.ibb.co/XX001tS/docker-compose.png,"DOCKER_COMPOSE")
-	- Lancer `docker-compose up -d` pour le démarrage des service
+	
+- Lancer `docker-compose up -d` pour le démarrage des service
 	- Ouvrir l'app sur votre. navigateur ou tester sur un `HTTPClient`.
 	![app](https://i.ibb.co/YjsRfNX/app.png, "app")
 
