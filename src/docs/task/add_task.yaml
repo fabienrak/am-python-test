@@ -1,0 +1,27 @@
+Add Task
+---
+tags:
+  - Task
+parameters:
+  - name: body
+    description: Les contenu doit etre les information requis lors de l'inscription
+    in: body
+    required: true
+    schema:
+      type: object
+      required:
+        - "task_title"
+        - "task_description"
+      properties:
+        task_title:
+          type: "task_title"
+          example: "coding"
+        task_description:
+          type: "task_description"
+          example: "code en javascript"
+responses:
+  201:
+    description: Inscription reussi
+
+  400:
+    description: Erreur de donnee envoye
