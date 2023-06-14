@@ -1,7 +1,7 @@
 import json
 
 from flasgger import swag_from
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, make_response
 from src.models.Task import Task
 from src import db
 from src.utils.utils import auth_required, success_response
@@ -13,20 +13,36 @@ task_blueprint = Blueprint('TaskRoute', __name__, url_prefix="/task")
 @auth_required
 @swag_from('../docs/task/all_task.yaml')
 def get_all_task(user_connected):
+
     all_task = Task.query.filter_by(user_id=user_connected.user_id).all()
-    #task_data = []
+    task_data = []
+    try:
+        if not all_task:
+            return make_response(jsonify({
+                'message':'Erreur de recuperation des task'
+            }))
+        for task in all_task.items:
 
-    for task in all_task:
-        all_task_data = [{
-            'task_id': task.task_id,
-            'task_title': task.task_title,
-            'task_description': task.task_description,
-            'task_author_id': task.task_author_id,
-            'created_at': task.created_at
-        }]
-        #task_data.append(all_task_data)
+            task_data.append({
+                'task_id': task.task_id,
+                'task_title': task.task_title,
+                'task_description': task.task_description,
+                'task_author_id': task.task_author_id,
+                'created_at': task.created_at
+            })
 
-    return jsonify({'data':all_task_data}), 200
+        print("DATA : ", task_data)
+        return make_response(
+            jsonify({
+                'data': task_data.json()
+            }), 200
+        )
+    except Exception as e:
+        return make_response(
+            jsonify({
+                'message': str(e)
+            }), 400
+        )
 
 
 @task_blueprint.route('/get_task/<task_id>', methods=['GET'])
@@ -43,7 +59,11 @@ def get_task_by_id(user_connected, task_id):
         'task_author_id': task.task_author_id,
         'created_at': task.created_at
     }
-    return jsonify(json.load(task_data))
+    return make_response(
+        jsonify({
+            'data': task_data.json()
+        }), 200
+    )
 
 
 @task_blueprint.route('/add_task', methods=['POST'])

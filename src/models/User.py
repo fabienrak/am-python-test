@@ -15,4 +15,8 @@ class User(db.Model):
     is_admin = db.Column(db.Boolean)
 
     def __repr__(self) -> str:
-        return 'User>>> {self.username}'
+        return "User(username='{}', email={}, user_task={})".format(
+            self.username,
+            self.email,
+            self.user_task
+        )

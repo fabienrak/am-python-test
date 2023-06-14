@@ -13,5 +13,9 @@ class Task(db.Model):
     updated_at = db.Column(db.DateTime, onupdate=datetime.now())
     is_completed = db.Column(db.Boolean)
 
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
     def __repr__(self) -> str:
         return 'Task>>> {self.task_title}'
+
