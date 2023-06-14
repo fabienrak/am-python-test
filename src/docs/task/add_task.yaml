@@ -3,6 +3,10 @@ Add Task
 tags:
   - Task
 parameters:
+  - in: header
+    name: Authorization
+    required: true
+    
   - name: body
     description: Les contenu doit etre les information requis lors de l'inscription
     in: body
