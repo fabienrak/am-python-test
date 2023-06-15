@@ -1,5 +1,5 @@
 import os
-
+import  logging
 from flasgger import Swagger
 from flask import Flask
 from flask_migrate import Migrate
@@ -18,6 +18,12 @@ def bootstrap_app():
     app = Flask(__name__)
     APP_CONFIG = os.getenv('APP_CONFIG', default=DevelopmentConfig)
     app.config.from_object(APP_CONFIG)
+
+    logging.basicConfig(
+        filename='./src/logs/output.log',
+        level=logging.DEBUG,
+        format=f'%(asctime)s - %(levelname)s - %(name)s - %(threadName)s : %(message)s'
+    )
 
     SWAGGER_DOC = {
         'title': os.environ.get('SWAGGER_TITLE'),

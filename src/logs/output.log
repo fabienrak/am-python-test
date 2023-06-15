@@ -1,0 +1,959 @@
+2023-06-14 19:53:32,050 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:53:32,059 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:53:44,265 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/__init__.py', reloading
+2023-06-14 19:53:45,357 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:53:45,366 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:53:49,755 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 19:53:49,755 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 19:53:49,756 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 19:53:50,633 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:53:50,643 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:57:21,916 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/models/Task.py', reloading
+2023-06-14 19:57:22,139 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 19:57:23,355 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:57:23,364 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:57:37,611 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/models/Task.py', reloading
+2023-06-14 19:57:37,930 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 19:57:39,117 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:57:39,125 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:57:39,652 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 19:57:39] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 19:57:45,569 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 19:57:45] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 19:58:31,246 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 19:58:31] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 201 -
+2023-06-14 19:59:14,559 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/models/Task.py', reloading
+2023-06-14 19:59:14,739 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 19:59:15,931 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:59:15,940 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:59:28,163 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 19:59:28,355 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 19:59:29,657 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 19:59:29,668 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 19:59:33,712 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 19:59:33] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:01:45,749 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/config.py', reloading
+2023-06-14 20:01:45,909 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:01:47,065 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:01:47,074 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:03:38,854 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:03:39,057 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:03:40,454 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:03:40,462 INFO werkzeug MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:03:43,239 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:03:43] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:04:35,330 INFO werkzeug MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/__init__.py', reloading
+2023-06-14 20:04:35,468 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:04:36,754 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:04:36,763 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:09:37,431 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:09:37,581 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:09:38,807 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:09:38,816 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:09:41,893 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:09:42,035 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:09:43,000 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:09:43,008 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:09:47,634 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:09:47] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:10:12,480 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:10:12,617 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:10:13,569 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:10:13,577 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:10:16,648 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:10:16,793 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:10:17,676 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:10:17,684 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:10:29,470 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:10:29,470 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:10:29,471 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:10:30,375 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:10:30,385 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:10:38,045 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:10:38] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 20:10:55,940 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:10:55] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:11:01,818 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:11:01] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:11:54,192 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:11:54] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:12:37,027 - INFO - werkzeug - Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:12:37] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:13:14,940 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:13:15,151 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:13:16,522 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:13:16,534 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:13:20,042 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:13:20] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:14:29,694 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 20:14:29,840 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:14:31,064 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:14:31,073 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:24:01,711 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:24:01,945 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:24:03,162 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:24:03,171 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:24:10,825 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:24:10] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:24:20,116 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:24:20,116 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:24:20,117 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:24:21,020 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:24:21,028 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:24:25,411 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:24:25] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:24:47,338 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:24:47] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:24:53,228 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:24:53] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:25:25,053 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:25:25,248 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:25:26,543 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:25:26,554 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:25:29,632 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:25:29,772 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:25:30,695 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:25:30,703 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:25:51,245 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:25:51,245 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:25:51,247 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:25:52,260 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:25:52,273 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:25:56,049 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:25:56] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-14 20:26:20,745 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:26:20,876 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:26:22,187 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:26:22,196 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:26:51,671 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:26:51,802 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:26:52,953 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:26:52,962 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:27:06,189 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:27:06,335 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:27:07,484 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:27:07,492 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:27:12,334 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:27:12,334 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:27:12,335 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:27:13,197 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:27:13,205 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:27:17,019 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:27:17] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-14 20:27:28,499 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:27:28] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 20:27:40,437 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:27:40] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-14 20:28:25,332 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:28:25,517 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:28:26,985 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:28:26,994 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:28:28,578 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:28:28] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:28:42,272 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:28:42,405 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:28:43,706 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:28:43,715 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:28:45,596 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:28:45] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:28:56,434 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:28:56] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:30:55,730 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:30:55,869 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:30:57,126 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:30:57,136 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:31:30,685 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:31:30,861 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:31:32,103 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:31:32,113 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:31:35,485 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:31:35] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:31:39,564 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:31:39] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:32:13,786 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:32:13,944 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:32:15,179 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:32:15,187 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:32:19,012 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:32:19] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:33:27,310 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:33:27,452 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:33:28,808 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:33:28,818 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:33:31,866 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:33:31] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-14 20:34:06,420 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:34:06,545 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:34:07,581 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:34:07,589 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:34:09,605 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:34:09] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-14 20:34:21,840 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:34:21,976 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:40:38,050 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:40:38,051 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:40:38,052 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:40:38,954 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:40:38,967 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:40:57,293 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:40:57,439 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:40:58,612 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:40:58,620 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:41:02,704 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:41:02,854 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:41:03,753 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:41:03,762 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:41:18,793 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:41:18,793 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:41:18,794 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:41:19,779 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:41:19,788 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:42:27,848 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:42:28,066 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:42:29,350 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:42:29,360 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:42:50,443 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:42:50,444 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:42:50,444 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:42:51,351 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:42:51,364 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:43:10,914 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:43:10] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:43:16,375 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:43:16] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:43:32,028 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:43:32,254 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:43:33,561 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:43:33,570 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:43:42,738 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:43:42,892 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:43:43,891 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:43:43,899 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:43:52,048 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:43:52,049 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:43:52,049 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:43:52,909 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:43:52,918 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:43:59,384 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:43:59] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-14 20:45:42,722 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:45:42] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 20:46:13,102 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:46:13,263 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:46:14,705 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:46:14,714 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:46:21,764 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:46:21,765 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:46:21,765 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:46:22,700 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:46:22,715 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:46:28,781 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:46:28] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 20:46:43,431 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:46:43] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:46:49,380 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:46:49] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:47:30,807 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:47:30,972 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:53:51,063 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 20:53:51,063 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 20:53:51,064 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:53:51,923 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:53:51,933 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:54:00,874 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:54:00] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 20:54:13,875 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:54:13] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 20:54:20,200 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:54:20] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 20:54:33,592 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:54:33,725 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:54:34,967 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:54:34,981 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:54:37,281 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:54:37] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-14 20:58:36,676 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 20:58:36,874 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:58:38,157 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:58:38,166 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 20:59:52,291 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 20:59:52,463 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 20:59:53,647 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 20:59:53,655 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:00:02,397 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:00:02,397 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:00:02,398 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:00:03,376 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:00:03,385 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:00:10,818 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:00:10] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 21:00:24,680 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:00:24] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 21:18:03,152 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 21:18:03,322 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:18:04,583 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:18:04,592 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:18:16,799 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 21:18:16,982 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:18:18,009 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:18:18,019 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:18:40,782 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:18:40,782 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:18:40,783 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:18:41,713 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:18:41,726 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:18:48,636 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:18:48] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 21:19:05,697 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:19:05] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 21:20:26,355 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 21:20:26,538 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:20:27,883 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:20:27,892 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:20:31,370 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:20:31,370 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:20:31,371 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:20:32,303 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:20:32,318 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:20:35,231 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:20:35] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 21:21:11,433 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:21:11,433 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:21:18,889 - INFO - werkzeug - Thread-1 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:21:18] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 21:21:39,862 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:21:39,862 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:21:39,863 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:21:40,766 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:21:40,775 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:21:58,091 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 21:21:58,258 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:21:59,243 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:21:59,252 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:54:50,980 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 21:54:51,380 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:54:52,684 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:54:52,695 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:54:58,978 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:54:58,978 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:54:58,979 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:54:59,837 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:54:59,845 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:56:06,873 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:56:06,873 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:56:06,874 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:56:07,789 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:56:07,803 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:56:16,795 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:56:16] "[35m[1mPOST /auth/signin HTTP/1.1[0m" 500 -
+2023-06-14 21:57:12,898 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 21:57:13,072 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:57:14,591 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:57:14,600 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:57:24,888 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:57:24,889 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:57:24,890 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:57:25,754 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:57:25,763 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:57:29,630 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:57:29] "[35m[1mPOST /auth/signin HTTP/1.1[0m" 500 -
+2023-06-14 21:58:16,653 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 21:58:16,799 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:58:18,249 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:58:18,258 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:58:22,345 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:58:22,347 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:58:22,348 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:58:23,436 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:58:23,445 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:58:26,361 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:58:26] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 21:58:40,962 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:58:40] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 21:59:21,390 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 21:59:21,527 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:59:22,745 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:59:22,758 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:59:28,061 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 21:59:28,061 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 21:59:28,062 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 21:59:28,945 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 21:59:28,954 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 21:59:36,696 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:59:36] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 21:59:49,700 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 21:59:49] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:00:00,467 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:00:00] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:00:05,336 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:00:05] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-14 22:01:09,530 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:01:09,714 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:01:11,123 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:01:11,133 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:01:19,141 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:01:19,141 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:01:19,142 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:01:20,223 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:01:20,235 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:01:23,781 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:01:23] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:01:25,544 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:01:25] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:04:27,208 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 22:04:27,425 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:04:28,680 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:04:28,689 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:04:35,954 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:04:35,954 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:04:35,955 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:04:36,998 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:04:37,009 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:04:40,396 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:04:40] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:04:41,738 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:04:41] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:09:07,353 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 22:09:07,585 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:09:08,882 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:09:08,892 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:09:21,021 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:09:21] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 22:10:48,401 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:10:48,549 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:10:49,755 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:10:49,764 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:11:05,044 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:11:05,211 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:19:34,696 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:19:34,696 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:19:34,698 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:19:35,641 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:19:35,652 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:19:39,651 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:19:39] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 22:19:54,602 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:19:54] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:19:56,012 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:19:56] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:19:57,638 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:19:57] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:20:29,540 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 22:20:29,670 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:20:30,857 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:20:30,866 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:21:12,575 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:21:12,829 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:21:14,092 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:21:14,101 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:21:52,725 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:21:52,901 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:21:54,112 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:21:54,121 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:23:15,500 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:23:15,660 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:23:16,862 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:23:16,871 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:23:50,408 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:23:50,549 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:23:51,769 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:23:51,778 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:23:59,314 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:23:59,314 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:23:59,315 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:24:00,340 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:24:00,350 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:24:02,870 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:24:02] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:24:09,403 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:24:09] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 22:24:23,887 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:24:23] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:24:37,997 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:24:38,137 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:24:39,322 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:24:39,332 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:24:49,509 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:24:49,654 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:24:50,773 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:24:50,783 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:24:54,908 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:24:55,131 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:24:59,077 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:24:59,077 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:24:59,078 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:25:00,070 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:25:00,091 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:25:03,117 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:25:03] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:25:04,360 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:25:04] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:28:43,621 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 22:28:43,814 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:28:45,136 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:28:45,146 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:29:03,454 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:29:03,604 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:29:04,751 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:29:04,760 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:29:29,311 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:29:29,311 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:29:29,312 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:29:30,302 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:29:30,315 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:29:32,529 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:29:32] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:29:35,246 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:29:35] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:29:36,390 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:29:36] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:30:52,609 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 22:30:52,771 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:30:54,035 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:30:54,044 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:33:44,699 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:33:44,863 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:33:46,102 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:33:46,113 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:34:47,056 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 22:34:47,214 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:34:48,435 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:34:48,444 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:35:01,533 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:35:01,533 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:35:01,534 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:35:02,498 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:35:02,506 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:35:05,371 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:35:05] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:35:07,184 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:35:07] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:35:12,860 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:35:12] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 22:35:26,190 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:35:26] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-14 22:36:43,135 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 22:36:43,286 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:36:44,521 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:36:44,530 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:37:53,592 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 22:37:53,737 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:37:54,902 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:37:54,911 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:38:00,799 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:38:00,799 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:38:00,800 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:38:01,918 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:38:01,926 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:38:08,183 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:38:08] "[35m[1mPOST /auth/signin HTTP/1.1[0m" 500 -
+2023-06-14 22:39:04,913 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 22:39:05,064 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:39:06,660 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:39:06,675 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:39:12,571 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 22:39:12,571 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 22:39:12,572 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 22:39:13,587 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 22:39:13,596 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 22:39:16,453 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 22:39:16] "[35m[1mPOST /auth/signin HTTP/1.1[0m" 500 -
+2023-06-14 23:10:13,065 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 23:10:13,294 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:10:14,588 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:10:14,608 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:10:23,809 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 23:10:23,975 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:10:25,087 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:10:25,097 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:10:31,236 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-14 23:10:31,383 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:10:32,313 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:10:32,323 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:13:43,420 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-14 23:13:43,634 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:13:44,925 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:13:44,934 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:14:27,608 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 23:14:27,608 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 23:14:27,609 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:14:28,636 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:14:28,644 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:14:33,466 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 23:14:33] "[35m[1mPOST /auth/signin HTTP/1.1[0m" 500 -
+2023-06-14 23:14:44,943 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-14 23:14:45,072 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:14:46,351 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:14:46,366 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:14:51,584 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 23:14:51,584 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-14 23:14:51,585 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-14 23:14:52,565 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-14 23:14:52,573 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-14 23:14:56,197 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 23:14:56] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-14 23:15:11,893 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 23:15:11] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 06:31:48,740 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 06:31:49,008 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:31:50,263 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:31:50,277 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:32:01,528 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 06:32:01,529 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 06:32:01,529 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:32:02,376 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:32:02,384 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:32:05,620 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 06:32:05] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 06:32:27,802 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 06:32:27,930 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:32:29,063 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:32:29,071 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:32:33,155 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 06:32:33,306 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:32:34,184 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:32:34,192 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:33:24,030 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 06:33:24,195 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:33:25,175 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:33:25,183 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:33:36,385 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 06:33:36,519 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:33:37,414 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:33:37,422 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:33:47,600 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 06:33:47,725 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:33:48,698 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:33:48,706 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:33:59,854 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 06:33:59,855 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 06:33:59,855 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:34:00,711 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:34:00,719 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:34:06,582 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 06:34:06] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 06:34:19,934 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 06:34:19] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 06:34:30,164 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 06:34:30,291 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:34:31,225 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:34:31,233 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:34:37,635 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 06:34:37,636 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 06:34:37,636 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 06:34:38,531 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 06:34:38,539 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 06:34:43,438 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 06:34:43] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-15 07:57:20,091 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 07:57:20,333 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 07:57:21,531 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 07:57:21,541 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 07:58:19,384 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 07:58:19,545 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 07:58:21,125 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 07:58:21,139 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 07:58:24,662 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 07:58:24,662 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 07:58:24,663 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 07:58:25,685 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 07:58:25,693 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 07:58:29,015 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 07:58:29] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 07:59:13,473 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 07:59:13,615 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 07:59:14,860 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 07:59:14,870 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 07:59:19,541 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 07:59:19,541 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 07:59:19,542 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 07:59:20,499 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 07:59:20,513 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 07:59:24,162 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 07:59:24] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 07:59:37,441 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 07:59:37] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 07:59:38,940 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 07:59:38] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:01:01,035 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:01:01,180 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:01:02,083 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:01:02,091 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:01:14,798 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:01:14,798 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:01:14,799 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:01:15,842 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:01:15,852 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:01:19,642 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:01:19] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:01:23,697 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:01:23] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:01:31,252 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:01:31] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:01:42,035 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:01:42] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:02:00,584 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-15 08:02:00,730 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:02:02,026 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:02:02,035 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:02:06,485 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:02:06] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:02:49,827 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:02:49,969 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:02:51,191 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:02:51,200 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:03:04,037 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:03:04,037 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:03:04,038 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:03:05,016 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:03:05,024 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:03:07,740 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:03:07] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:03:20,622 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:03:20] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:07:06,019 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:07:06,223 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:07:07,420 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:07:07,429 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:09:15,377 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:09:15,573 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:09:16,776 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:09:16,785 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:09:33,285 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:09:33,285 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:09:33,286 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:09:34,295 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:09:34,307 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:09:37,032 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:09:37] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:09:41,174 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:09:41] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:09:52,088 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:09:52] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:11:35,489 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:11:35] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:11:39,848 - INFO - werkzeug - Thread-6 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:11:39] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:11:53,352 - INFO - werkzeug - Thread-7 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:11:53] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:11:58,259 - INFO - werkzeug - Thread-8 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:11:58] "[31m[1mGET /task/all_task HTTP/1.1[0m" 415 -
+2023-06-15 08:12:03,972 - INFO - werkzeug - Thread-9 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:12:03] "[31m[1mGET /task/all_task HTTP/1.1[0m" 400 -
+2023-06-15 08:15:52,985 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:15:53,150 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:15:54,359 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:15:54,370 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:16:04,288 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:16:04,288 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:16:04,289 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:16:05,253 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:16:05,267 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:16:07,952 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:16:07] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-15 08:16:14,968 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:16:14] "[35m[1mGET /task/all_task HTTP/1.1[0m" 500 -
+2023-06-15 08:16:57,130 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:16:57,267 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:16:58,491 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:16:58,500 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:17:05,240 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:17:05,240 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:17:05,241 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:17:06,195 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:17:06,203 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:17:08,493 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:17:08] "[31m[1mGET /task/all_task HTTP/1.1[0m" 401 -
+2023-06-15 08:17:15,232 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:17:15] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:17:29,669 - INFO - werkzeug - Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:17:29] "[31m[1mGET /task/all_task HTTP/1.1[0m" 401 -
+2023-06-15 08:17:34,850 - INFO - werkzeug - Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:17:34] "[31m[1mGET /task/all_task HTTP/1.1[0m" 401 -
+2023-06-15 08:18:07,103 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:18:07,255 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:18:08,544 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:18:08,553 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:18:16,285 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:18:16,285 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:18:16,286 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:18:17,205 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:18:17,215 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:18:22,764 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:18:22] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:18:40,208 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:18:40] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-15 08:20:00,755 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:20:00,990 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:20:02,167 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:20:02,176 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:20:29,547 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:20:29] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:20:43,913 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:20:43] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-15 08:21:05,150 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:21:05,290 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:21:06,542 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:21:06,551 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:21:19,038 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:21:19,038 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:21:19,038 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:21:20,005 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:21:20,013 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:21:25,928 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:21:25] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-15 08:23:11,962 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:23:12,089 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:23:13,271 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:23:13,280 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:23:20,411 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:23:20,539 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:23:21,509 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:23:21,517 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:23:25,606 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:23:25,749 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:23:26,708 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:23:26,719 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:24:06,339 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:24:06,504 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:24:07,727 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:24:07,736 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:24:26,042 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:24:26,195 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:24:27,152 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:24:27,162 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:24:35,331 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:24:35] "GET /task/all_task HTTP/1.1" 200 -
+2023-06-15 08:24:49,540 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:24:49,724 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:24:50,912 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:24:50,922 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:25:11,233 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:25:11] "[35m[1mGET /task/get_task/2 HTTP/1.1[0m" 500 -
+2023-06-15 08:25:24,469 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:25:24,597 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:25:25,815 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:25:25,825 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:25:53,320 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:25:53,502 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:25:54,737 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:25:54,747 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:25:59,615 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:25:59,615 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:25:59,616 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:26:00,510 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:26:00,522 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:26:05,989 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:26:05] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:26:18,533 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:26:18] "[35m[1mGET /task/get_task/2 HTTP/1.1[0m" 500 -
+2023-06-15 08:26:49,334 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:26:49,457 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:26:50,366 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:26:50,374 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:26:52,911 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:26:52] "GET /task/get_task/2 HTTP/1.1" 200 -
+2023-06-15 08:26:59,855 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:26:59] "GET /task/get_task/3 HTTP/1.1" 200 -
+2023-06-15 08:28:27,909 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:28:28,037 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:28:29,187 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:28:29,196 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:28:52,580 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:28:52,743 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:28:53,972 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:28:53,983 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:29:14,892 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:29:14] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:29:49,955 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:29:49] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 500 -
+2023-06-15 08:29:57,983 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:29:58,180 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:29:59,347 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:29:59,356 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:30:23,754 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:30:24,013 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:30:25,092 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:30:25,103 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:30:26,380 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:30:26] "POST /task/add_task HTTP/1.1" 200 -
+2023-06-15 08:30:43,411 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:30:43,587 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:30:44,499 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:30:44,507 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:31:42,383 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:31:42,566 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:31:43,823 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:31:43,834 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:31:50,427 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:31:50] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 500 -
+2023-06-15 08:32:11,267 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:32:11,451 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:32:12,566 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:32:12,575 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:32:24,778 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:32:24,910 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:32:25,803 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:32:25,811 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:32:29,777 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:32:29] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 500 -
+2023-06-15 08:33:51,194 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:33:51,333 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:33:52,521 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:33:52,530 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:33:59,672 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:33:59,842 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:34:00,818 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:34:00,827 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:34:08,968 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:34:08] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 500 -
+2023-06-15 08:34:27,283 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:34:27,544 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:34:28,768 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:34:28,777 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:34:30,542 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:34:30] "POST /task/add_task HTTP/1.1" 200 -
+2023-06-15 08:35:09,135 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:35:09] "POST /task/add_task HTTP/1.1" 200 -
+2023-06-15 08:35:27,728 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:35:27,873 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:35:29,105 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:35:29,115 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:35:34,226 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:35:34,374 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:35:35,369 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:35:35,377 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:35:40,637 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:35:40] "[35m[1mPOST /task/add_task HTTP/1.1[0m" 500 -
+2023-06-15 08:35:48,617 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:35:48,844 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:35:49,843 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:35:49,855 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:35:50,911 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:35:50] "POST /task/add_task HTTP/1.1" 200 -
+2023-06-15 08:36:07,156 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/models/Task.py', reloading
+2023-06-15 08:36:07,293 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:36:08,365 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:36:08,374 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:36:14,162 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:36:14] "POST /task/add_task HTTP/1.1" 200 -
+2023-06-15 08:37:24,655 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:37:24,815 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:37:25,892 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:37:25,903 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:37:50,334 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:37:50,492 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:37:51,481 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:37:51,491 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:38:15,883 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:38:16,026 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:38:17,053 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:38:17,061 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:38:21,166 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:38:21,308 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:38:22,238 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:38:22,250 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:38:27,351 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:38:27,492 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:38:28,363 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:38:28,371 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:39:01,907 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:39:02,046 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:39:03,099 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:39:03,109 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:39:11,268 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:39:11,420 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:39:12,336 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:39:12,344 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:39:24,586 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:39:24,755 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:39:25,878 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:39:25,887 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:39:42,160 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:39:42,296 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:39:43,183 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:39:43,192 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:40:19,789 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:40:19,964 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:40:20,888 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:40:20,896 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:40:44,288 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-15 08:40:44,447 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:40:45,372 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:40:45,381 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:41:21,954 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/AuthService.py', reloading
+2023-06-15 08:41:22,088 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:41:23,061 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:41:23,070 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:42:16,982 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:42:17,134 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:42:18,310 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:42:18,320 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:44:06,988 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:44:07,118 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:44:08,407 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:44:08,418 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:45:10,455 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/utils/utils.py', reloading
+2023-06-15 08:45:10,653 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:45:11,858 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:45:11,867 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:48:15,812 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:48:15,970 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:48:17,209 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:48:17,218 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:49:37,438 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:49:37,577 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:49:38,753 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:49:38,763 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:49:53,926 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:49:53,926 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:49:53,927 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:49:54,883 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:49:54,896 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:51:57,769 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:51:57,901 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:51:59,092 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:51:59,102 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:52:27,627 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:52:27,783 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:52:29,003 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:52:29,014 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:52:35,712 - INFO - werkzeug - MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-15 08:52:35,712 - INFO - werkzeug - MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:52:35,713 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:52:36,741 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:52:36,750 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:52:46,427 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:52:46] "POST /auth/signin HTTP/1.1" 200 -
+2023-06-15 08:53:16,477 - INFO - werkzeug - Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:53:16] "[33mPOST /task/get_task/ HTTP/1.1[0m" 404 -
+2023-06-15 08:53:55,017 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:53:55,144 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:53:56,426 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:53:56,439 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:53:59,960 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:53:59] "[35m[1mPOST /task/get_task/ HTTP/1.1[0m" 500 -
+2023-06-15 08:54:17,835 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:54:17,993 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:54:19,275 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:54:19,284 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:54:20,925 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:54:20] "POST /task/get_task/ HTTP/1.1" 200 -
+2023-06-15 08:54:36,571 - INFO - werkzeug - MainThread :  * Detected change in '/Users/numheritmg/work/coding/projet_perso/TEST_AMLTD/amltd-task-api/src/services/TaskService.py', reloading
+2023-06-15 08:54:36,701 - INFO - werkzeug - MainThread :  * Restarting with stat
+2023-06-15 08:54:37,641 - WARNING - werkzeug - MainThread :  * Debugger is active!
+2023-06-15 08:54:37,649 - INFO - werkzeug - MainThread :  * Debugger PIN: 338-582-731
+2023-06-15 08:55:55,803 - INFO - werkzeug - Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:55:55] "POST /auth/add_admin/3 HTTP/1.1" 200 -
