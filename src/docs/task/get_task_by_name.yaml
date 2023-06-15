@@ -1,0 +1,21 @@
+Get Task By Title/Name
+---
+tags:
+  - Task
+parameters:
+  - in: header
+    name: Authorization
+    required: true
+  - in: path
+    name: task_title
+    type: string
+
+responses:
+  200:
+    description: Task trouve
+
+  400:
+    description: Aucun task correspondant
+
+  401:
+    description: Information envoyer incorrect
