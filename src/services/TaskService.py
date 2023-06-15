@@ -1,10 +1,12 @@
 import json
-
+import sys
 from flasgger import swag_from
 from flask import Blueprint, request, jsonify, make_response
+
+from src.models.User import User
 from src.models.Task import Task
 from src import db
-from src.utils.utils import auth_required, success_response
+from src.utils.utils import auth_required, success_response, error_response
 
 task_blueprint = Blueprint('TaskRoute', __name__, url_prefix="/task")
 
@@ -13,16 +15,15 @@ task_blueprint = Blueprint('TaskRoute', __name__, url_prefix="/task")
 @auth_required
 @swag_from('../docs/task/all_task.yaml')
 def get_all_task(user_connected):
-
-    all_task = Task.query.filter_by(user_id=user_connected.user_id).all()
-    task_data = []
     try:
+        all_task = Task.query.filter_by(task_author_id=user_connected).all()
+
+        task_data = []
         if not all_task:
             return make_response(jsonify({
-                'message':'Erreur de recuperation des task'
+                'message': 'Erreur de recuperation des task'
             }))
-        for task in all_task.items:
-
+        for task in all_task:
             task_data.append({
                 'task_id': task.task_id,
                 'task_title': task.task_title,
@@ -31,39 +32,50 @@ def get_all_task(user_connected):
                 'created_at': task.created_at
             })
 
-        print("DATA : ", task_data)
-        return make_response(
-            jsonify({
-                'data': task_data.json()
-            }), 200
-        )
+        return success_response(task_data)
     except Exception as e:
-        return make_response(
-            jsonify({
-                'message': str(e)
-            }), 400
-        )
+        return error_response(str(e))
 
 
 @task_blueprint.route('/get_task/<task_id>', methods=['GET'])
 @auth_required
 @swag_from('../docs/task/get_task_by_id.yaml')
 def get_task_by_id(user_connected, task_id):
-    task = Task.query.filter_by(task_id=task_id, user_id=user_connected.user_id).first()
+    task = Task.query.filter_by(task_id=task_id, task_author_id=user_connected).first()
     if not task:
         return jsonify({'message': 'AUCUNE TASK CORRESPONDANT'})
-    task_data = {
-        'task_id': task.task_id,
-        'task_title': task.task_title,
-        'task_description': task.task_description,
-        'task_author_id': task.task_author_id,
-        'created_at': task.created_at
-    }
-    return make_response(
-        jsonify({
-            'data': task_data.json()
-        }), 200
-    )
+    else:
+        try:
+            task_data = {
+                'task_id': task.task_id,
+                'task_title': task.task_title,
+                'task_description': task.task_description,
+                'task_author_id': task.task_author_id,
+                'created_at': task.created_at
+            }
+            return success_response(task_data)
+        except Exception as e:
+            return error_response(str(e))
+
+
+@task_blueprint.route('/get_task', methods=['POST'])
+@auth_required
+@swag_from('../docs/task/get_task_by_name.yaml')
+def get_task_by_name(user_connected):
+    task_name = request.json.get('task_name')
+
+    task = Task.query.filter_by(task_title=task_name, task_author_id=user_connected).first()
+    if not task:
+        return error_response('AUCUNE TASK CORRESPONDANT')
+    else:
+        task_data = {
+            'task_id': task.task_id,
+            'task_title': task.task_title,
+            'task_description': task.task_description,
+            'task_author_id': task.task_author_id,
+            'created_at': task.created_at
+        }
+        return success_response(task_data)
 
 
 @task_blueprint.route('/add_task', methods=['POST'])
@@ -71,18 +83,23 @@ def get_task_by_id(user_connected, task_id):
 @swag_from('../docs/task/add_task.yaml')
 def add_task(user_connected):
     task_data = request.get_json()
-    new_task = Task(
-        task_title=task_data['task_title'],
-        task_description=task_data['task_description'],
-        task_author_id=user_connected.user_id,
-        is_completed=False
-    )
-    db.session.add(new_task)
-    db.session.commit()
+    task_existed = Task.query.filter_by(task_title=task_data['task_title']).first()
+    if task_existed:
+        return error_response('TASK DEJA AJOUTER')
+    else:
+        try:
+            new_task = Task(
+                task_title=task_data['task_title'],
+                task_description=task_data['task_description'],
+                is_completed=False,
+                task_author_id=user_connected,
+            )
+            db.session.add(new_task)
+            db.session.commit()
 
-    return jsonify({
-        "message": "TASK AJOUTER AVEC SUCCESS",
-    }), 201
+            return success_response('TASK AJOUTER AVEC SUCCESS')
+        except Exception as e:
+            return error_response(str(e))
 
 
 @task_blueprint.route('/edit_task', methods=['GET'])
@@ -96,28 +113,28 @@ def edit_task():
 @auth_required
 @swag_from('../docs/task/delete_task.yaml')
 def delete_task(user_connected, task_id):
-    task = Task.query.filter_by(task_id=task_id, user_id=user_connected.user_id).first()
+    task = Task.query.filter_by(task_id=task_id, user_id=user_connected).first()
     if not task:
-        return jsonify({
-            "message": "AUCUNE TASK CORRESPONDANT"
-        })
-    db.session.delete(task)
-    db.session.commit()
-    return jsonify({
-        'message': 'TASK SUPPRIMER !!'
-    })
+        return success_response('AUCUNE TASK CORRESPONDANT')
+    else:
+        try:
+            db.session.delete(task)
+            db.session.commit()
+            return success_response('TASK SUPPRIMER')
+        except Exception as e:
+            return error_response(str(e))
 
 
 @task_blueprint.route('/complete_task/<task_id>', methods=['PUT'])
 @auth_required
 def complete_task(user_connected, task_id):
-    task = Task.query.filter_by(task_id=task_id, user_id=user_connected.user_id).first()
+    task = Task.query.filter_by(task_id=task_id, user_id=user_connected).first()
     if not task:
-        return jsonify({
-            'message': 'AUCUNE TASK CORRESPONDANT'
-        })
-    task.is_completed = True
-    db.session.commit()
-    return jsonify({
-        'message': 'TASK FINI !!'
-    })
+        return error_response('AUCUNE TASK CORRESPONDANT')
+    else:
+        try:
+            task.is_completed = True
+            db.session.commit()
+            return success_response('TASK FINI')
+        except Exception as e:
+            return error_response(str(e))
