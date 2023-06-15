@@ -1,8 +1,9 @@
 from flasgger import swag_from
-from flask import jsonify, Blueprint, request
+from flask import jsonify, Blueprint, request, make_response
 from flask_bcrypt import generate_password_hash, check_password_hash
-from src.utils.utils import generate_token, auth_required
+from src.utils.utils import generate_token, auth_required, decode_jwt
 from src.models.User import User
+from src.models.Task import Task
 from src import db
 import validators
 
@@ -55,7 +56,6 @@ def user_register():
 @auth_blueprint.route('/signin', methods=['POST'])
 @swag_from('../docs/auth/auth_login.yaml')
 def user_login():
-
     email = request.json.get('email', '')
     password = request.json.get('password', '')
 
@@ -64,7 +64,11 @@ def user_login():
     if app_user:
         check_correct_pwd = check_password_hash(app_user.password, password)
         if check_correct_pwd:
-            token = generate_token(payload=request.get_json(), dureeToken=60)
+            current_user = ({
+                'user_id': app_user.user_id
+            })
+            token = generate_token(payload=current_user, dureeToken=150)
+
             return jsonify({
                 'message': "UTILISATEUR CONNECTE AVEC SUCCESS",
                 'token': token,
@@ -89,12 +93,13 @@ def set_admin_user(user_id):
         'message': 'STATUS CHANGE EN ADMINISTRATEUR'
     })
 
+
 @auth_blueprint.route('/all_user', methods=['GET'])
 @auth_required
 def get_all_users(user_connected):
     if not user_connected.is_admin:
         return jsonify({
-            'message':'ACCESS REFUSER'
+            'message': 'ACCESS REFUSER'
         })
     user = User.query.all()
     all_user = []
@@ -105,5 +110,5 @@ def get_all_users(user_connected):
         }
         all_user.append(user_data)
         return jsonify({
-            'message':all_user
+            'message': all_user
         })
