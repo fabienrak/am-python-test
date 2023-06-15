@@ -26,23 +26,17 @@ def decode_jwt(token):
 def auth_required(f):
     @wraps(f)
     def decorator(*args, **kwargs):
-        token = None
-        if 'Authorization' in request.headers or 'x-access-token' in request.headers or 'token' in request.json:
-            token = request.headers.get(
-                'x-access-token', None) or request.json.get('token', None) or request.headers.get('Authorization')
-            token = token.replace('Bearer ', '')
+        token = request.headers.get('Authorization')
+        if not token:
+            return jsonify({'message': 'TOKEN REQUIS'}), 401
         else:
-            return jsonify({'message': 'TOKEN REQUIS'})
+            token = token.replace('Bearer ', '')
         try:
             decoded = decode_jwt(token)
-            user = User.query.filter_by(email=decoded['email']).first()
-            user_connected = User.query.filter_by(user_id=user.user_id).first()
-            if not user:
-                return jsonify({'message': 'UTILISATEUR NON TROUVER !! '})
-        except:
-            return jsonify({'message': 'INVALIDE TOKEN !! '})
+            user_connected = decoded['user_id']
+        except Exception as e:
+            return jsonify({'message': 'INVALIDE TOKEN !! ', 'data': str(e)})
         return f(user_connected, *args, **kwargs)
-
     return decorator
 
 
