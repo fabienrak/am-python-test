@@ -12,12 +12,12 @@ Structure de Dossier :
 
 -	![dossier](https://i.ibb.co/qnb58xH/folder.png,"dossier")
 	-	`.github/`: workflows github actions
-	-	`env`: environement virtuel python
+	-	`logs`: dossier du fichier `.log` 
 	-	`migrations`: Dossier contenant le fichier de configuration, alembic et des migrations
 	-	`src`: Dossier source de l'application
 	-	`src/docs`: Configuration `.yaml` de documentation `swagger`
 	-	`src/models`: Les fichier Models
-	-	`src/services`: Dossier des fichier `services` de l'app
+	-	`src/services`: Dossier des fichier `services` de l'app, partie traitement
 	-	`src/utils`: Utilitaire et Configuration partager
 	-	`src/__init__.py`: Application factory
 	-	`src/gunicorn.py`: Configuration de gunicorn au déploiement
